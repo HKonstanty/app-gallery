@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrainLayoutDetalis"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/teal_200"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/setNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:textColor="@color/white"
+        android:text="TextView"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carImage" />
+
+    <TextView
+        android:id="@+id/constNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:text="@string/marka"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carImage" />
+
+    <ImageView
+        android:id="@+id/carImage"
+        android:layout_width="172dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/constModelTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:text="@string/model"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constNameTV" />
+
+        <TextView
+            android:id="@+id/setModelTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="60dp"
+            android:textSize="15sp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/setNameTV" />
+
+        <TextView
+            android:id="@+id/constPowerTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:text="@string/moc_silnika_km"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constModelTV" />
+
+        <TextView
+            android:id="@+id/setPowerTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginEnd="60dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/setModelTV" />
+
+        <TextView
+            android:id="@+id/constCapTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:text="@string/pojemno_silnika_l"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constPowerTV" />
+
+        <TextView
+            android:id="@+id/setCapTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginEnd="60dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/setPowerTV" />
+
+    <TextView
+        android:id="@+id/infoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constCapTV" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

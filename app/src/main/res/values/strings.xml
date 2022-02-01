@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Gallery</string>
+    <string name="name">name</string>
+    <string name="all">All</string>
+    <string name="ferrari">Ferrari</string>
+    <string name="lamborghini">Lamborghini</string>
+    <string name="aston_martin">Aston Martin</string>
+    <string name="favourite">Favourite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="supercar_gallery">SUPERCAR GALLERY</string>
+    <string name="model">Model:</string>
+    <string name="marka">Marka:</string>
+    <string name="moc_silnika_km">Moc silnika [km]:</string>
+    <string name="pojemno_silnika_l">Pojemność silnika [L]</string>
+</resources>

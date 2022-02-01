@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <item android:title="@string/all"
+        android:id="@+id/allIt"
+        app:showAsAction="never" />
+    <item android:title="@string/ferrari"
+        android:id="@+id/ferrariIt"
+        app:showAsAction="never" />
+    <item android:title="@string/lamborghini"
+        android:id="@+id/lamboIt"
+        app:showAsAction="never" />
+    <item android:title="@string/aston_martin"
+        android:id="@+id/astonIt"
+        app:showAsAction="never" />
+    <item android:title="@string/favourite"
+        android:id="@+id/favIt"
+        app:showAsAction="never" />
+
+</menu>
