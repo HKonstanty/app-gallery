@@ -1,4 +1,4 @@
-# BMI-calculator
+# Car gallery
 The goal of this simple application is to show how implement list with ViewPager.
 
 ## Table of Contents
@@ -28,25 +28,25 @@ list with a possibility of choosing particular elements what would allow the use
 
 ## Features
 List the ready features here:
-* przewijanie listy pojazdów/ scrolling the vechicle list 
-* filtrowanie listy według marki pojazdu/ flitering the list by car brand
-* dodawanie pojadu do ulubionych/ adding a vechicle to favourites
-* usuwanie pozycji z listy/ deleting an item from the list 
+* scrolling the vechicle list 
+* flitering the list by car brand
+* adding a vechicle to favourites
+* deleting an item from the list 
 
 
 ## Screenshots
 Application screenshot review
 ### Car list screen 
-![](./screenshot/list_screen.png)
+![](./screenshots/list_screen.png)
 
 ### Selected car information screen 
-![](./screenshot/details_screen.png)
+![](./screenshots/details_screen.png)
 
 ### Selected car pictures screen 
-![](./screenshot/photo_screen.png)
+![](./screenshots/photo_screen.png)
 
 ### Selected car desctiprion screen 
-![](./screenshot/description_screen.png)
+![](./screenshots/description_screen.png)
 
 ## Setup
 1. Download the samples by cloning this repository
