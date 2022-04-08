@@ -12,13 +12,14 @@ The goal of this simple application is to show how implement list with ViewPager
 * [Contact](#contact)
 
 
-## General Information
-
+## General Informationt
+The application was developed as a part of university class. The aim of this project was to create a
+list with a possibility of choosing particular elements what would allow the user to get more pictures and information about the chosen item. The user can easily delate the alements from the list by swiping. What is more, the user can create a new, personalized list of his favourite items which would appear in rolled up menu. 
 
 
 ## Technologies Used
 - Material Design
-- ViewPager
+- ViewPager2
 - Navigation Component
 - ViewModel
 - Kotlin version 1.4.20
@@ -27,13 +28,25 @@ The goal of this simple application is to show how implement list with ViewPager
 
 ## Features
 List the ready features here:
-- Obliczanie BMI na podstawie wzrostu i wagi w jednostkach europejskich i brytyjskich
-- Sugerowanie działania na podstawie obliczonego BMI
-- Prowadzenie historii BMI
+* przewijanie listy pojazdów/ scrolling the vechicle list 
+* filtrowanie listy według marki pojazdu/ flitering the list by car brand
+* dodawanie pojadu do ulubionych/ adding a vechicle to favourites
+* usuwanie pozycji z listy/ deleting an item from the list 
 
 
 ## Screenshots
-Przegląd ekranów aplikacji
+Application screenshot review
+### Car list screen 
+![](./screenshot/list_screen.png)
+
+### Selected car information screen 
+![](./screenshot/details_screen.png)
+
+### Selected car pictures screen 
+![](./screenshot/photo_screen.png)
+
+### Selected car desctiprion screen 
+![](./screenshot/description_screen.png)
 
 ## Setup
 1. Download the samples by cloning this repository
